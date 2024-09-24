@@ -148,19 +148,19 @@
                 <div class="col-md-4 col-md-offset-4 text-center">
                     <ul class="nav nav-pills nav-justified">
                         <li>
-                            <a href="https://arxiv.org/abs/2403.16967">
+                            <a href="https://lipschitz-constrained-policy.github.io">
                             <image src="img/paper-cover.jpeg" height="50px">
                                 <h4><strong>Paper</strong></h4>
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/Ericonaldo/visual_wholebody">
+                            <a href="https://lipschitz-constrained-policy.github.io">
                             <image src="img/github.png" height="50px">
                                 <h4><strong>Code</strong></h4>
                             </a>
                         </li>
                         <li>
-                            <a href="https://youtu.be/Kfj1ImFLoqI">
+                            <a href="https://lipschitz-constrained-policy.github.io">
                             <image src="img/youtube_icon.png" height="50px">
                                 <h4><strong>Video</strong></h4>
                             </a>
@@ -215,8 +215,11 @@
 
         <div class="row" style="margin-top: 100px; margin-left: 5px;">
             <h3 class="col-md-8 col-md-offset-2" style="font-size: 32px; font-weight: bold; text-align:center; margin-bottom: 50px;">
-                Multi-Robot Walking
+                General Locomotion Framework
             </h3>
+            <div class="col-md-8 col-md-offset-2">
+                <p class="text-justify" style="font-size: 16px;">
+            With our method (LCP), we are able to develop a framework that can be generally utilized to train distinc humanoid robots.</p></div>
             <div class="text-center" style="column-gap: 40px; line-height: 50px;">
                 <video id="main-walk1" width="34%" style="border-radius: 10px;" autoplay loop muted controls>
                     <source src="img/videos/sec1/t1-grass-final0.mp4" type="video/mp4" />
@@ -233,57 +236,69 @@
             </div>
         </div>
 
-        <div class="row" style="margin-top: 100px; margin-left: 5px;">
-            <h3 class="col-md-8 col-md-offset-2" style="font-size: 32px; font-weight: bold; text-align:center; margin-bottom: 50px;">
-                Robustness Testing
-            </h3>
-            <div class="text-center" style="column-gap: 40px; line-height: 50px;">
-                <video id="indoor_vision_chair" width="18%" style="border-radius: 10px;" autoplay loop muted controls>
-                    <source src="img/videos/external-force/t1-external-final.mp4" type="video/mp4" />
-                </video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                <video id="outdoor_vision" width="18%" style="border-radius: 10px;" autoplay loop muted controls>
-                    <source src="img/videos/external-force/t2-external-mosaic.mp4" type="video/mp4" />
-                </video>
-                <!-- <video id="indoor_vision" width="24%" style="border-radius: 10px;" autoplay loop muted controls>
-                    <source src="img/videos/comp/indoor_vision-comp.mp4" type="video/mp4" />
-                </video> -->
-            </div>
-        </div>
-        
         <div class="row" style="margin-top: 100px;">
             <h3 class="col-md-8 col-md-offset-2" style="font-size: 32px; font-weight: bold; text-align:center; margin-bottom: 50px;">
                 More Examples
             </h3>
             <div class="col-md-12 text-center" style="column-gap: 40px; line-height: 50px">
-                    <!-- <video id="v1" width="24%" style="border-radius: 10px;" autoplay loop muted controls>
-                        <source src="img/diff-heights/comp/home-sofa-comp.mp4" type="video/mp4" />
+                    <video id="6" width="25%" style="border-radius: 10px;" autoplay loop muted controls>
+                        <source src="img/videos/more-examples/id6_t2_outdoor6_process.mp4" type="video/mp4" />
+                    </video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <video id="11" width="25%" style="border-radius: 10px;" autoplay loop muted controls>
+                        <source src="img/videos/more-examples/id11-h1-roll.mp4" type="video/mp4" />
+                    </video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <video id="8" width="25%" style="border-radius: 10px;" autoplay loop muted controls>
+                        <source src="img/videos/more-examples/id8-berkeley-passage1-process.mp4" type="video/mp4" />
+                    </video><br>
+                    <video id="8" width="25%" style="border-radius: 10px;" autoplay loop muted controls>
+                        <source src="img/videos/more-examples/id8-berkeley-passage1-process.mp4" type="video/mp4" />
+                    </video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <video id="9" width="25%" style="border-radius: 10px;" autoplay loop muted controls>
+                        <source src="img/videos/more-examples/id9-berkeley-roll1-process.mp4" type="video/mp4" />
+                    </video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <video id="4" width="25%" style="border-radius: 10px;" autoplay loop muted controls>
+                        <source src="img/videos/more-examples/id4_t2_outdoor1-process.mp4" type="video/mp4" />
+                    </video><br>
+                    <video id="5" width="25%" style="border-radius: 10px;" autoplay loop muted controls>
+                        <source src="img/videos/more-examples/id5_t2_outdoor5_process.mp4" type="video/mp4" />
+                    </video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <video id="7" width="25%" style="border-radius: 10px;" autoplay loop muted controls>
+                        <source src="img/videos/more-examples/id7-t2_outdoor7_process.mp4" type="video/mp4" />
+                    </video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <video id="10" width="25%" style="border-radius: 10px;" autoplay loop muted controls>
+                        <source src="img/videos/more-examples/id10-berkeley-roll2-process.mp4" type="video/mp4" />
+                    </video><br>
+                    <video id="outdoor_vision" width="15%" style="border-radius: 10px;" autoplay loop muted controls>
+                        <source src="img/videos/external-force/t2-external-mosaic.mp4" type="video/mp4" />
                     </video>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <video id="v2" width="24%" style="border-radius: 10px;" autoplay loop muted controls>
-                        <source src="img/diff-heights/comp/ground-hammer-comp.mp4" type="video/mp4" />
+                    <video id="1" width="15%" style="border-radius: 10px;" autoplay loop muted controls>
+                        <source src="img/videos/more-examples/id1-t1-indoor-rough-process.mp4" type="video/mp4" />
+                    </video>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <video id="3" width="15%" style="border-radius: 10px;" autoplay loop muted controls>
+                        <source src="img/videos/more-examples/id3-t2_indoor3_rough_process.mp4" type="video/mp4" />
+                    </video>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <video id="2" width="15%" style="border-radius: 10px;" autoplay loop muted controls>
+                        <source src="img/videos/more-examples/id2-t2_indoor2-process.mp4" type="video/mp4" />
+                    </video>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <video id="indoor_vision_chair" width="15%" style="border-radius: 10px;" autoplay loop muted controls>
+                        <source src="img/videos/external-force/t1-external-final.mp4" type="video/mp4" />
                     </video>
-                    <video id="v3" width="24%" style="border-radius: 10px;" autoplay loop muted controls>
-                        <source src="img/diff-heights/comp/ground-peach-comp.mp4" type="video/mp4" />
-                    </video><br>
-                    <video id="v4" width="24%" style="border-radius: 10px;" autoplay loop muted controls>
-                        <source src="img/diff-heights/comp/ground-rope-comp.mp4" type="video/mp4" />
-                    </video>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <video id="v5" width="24%" style="border-radius: 10px;" autoplay loop muted controls>
-                        <source src="img/diff-heights/comp/high-bottle-comp.mp4" type="video/mp4" />
-                    </video>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <video id="v6" width="24%" style="border-radius: 10px;" autoplay loop muted controls>
-                        <source src="img/diff-heights/comp/high-hammer-comp.mp4" type="video/mp4" />
-                    </video><br>
-                    <video id="v7" width="24%" style="border-radius: 10px;" autoplay loop muted controls>
-                        <source src="img/diff-heights/comp/high-rope-comp.mp4" type="video/mp4" />
-                    </video>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <video id="v8" width="24%" style="border-radius: 10px;" autoplay loop muted controls>
-                        <source src="img/diff-heights/comp/high-butter-comp.mp4" type="video/mp4" />
-                    </video>&nbsp;&nbsp;&nbsp;&nbsp;
-                    <video id="v1" width="24%" style="border-radius: 10px;" autoplay loop muted controls>
-                        <source src="img/diff-heights/comp/ground-box-comp.mp4" type="video/mp4" />
-                    </video> -->
             </div>
         </div>
+
+        <!-- <div class="row" style="margin-top: 100px; margin-left: 5px;">
+            <h3 class="col-md-8 col-md-offset-2" style="font-size: 32px; font-weight: bold; text-align:center; margin-bottom: 50px;">
+                External Forces
+            </h3>
+            <div class="text-center" style="column-gap: 40px; line-height: 50px;">
+                <video id="indoor_vision_chair" width="18%" style="border-radius: 10px;" autoplay loop muted controls>
+                    <source src="img/videos/external-force/t1-external-final.mp4" type="video/mp4" />
+                </video>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <video id="outdoor_vision" width="18%" style="border-radius: 10px;" autoplay loop muted controls>
+                    <source src="img/videos/external-force/t2-external-mosaic.mp4" type="video/mp4" />
+                </video>
+            </div>
+        </div> -->
 
         <div class="row" style="margin-top: 100px;">
             <h3 class="col-md-8 col-md-offset-2" style="font-size: 32px; font-weight: bold; text-align:center; margin-bottom: 50px;">
@@ -320,6 +335,12 @@
                 <video id="f2" width="24%" style="border-radius: 10px;" autoplay loop muted controls>
                     <source src="img/videos/failure-case/box-fail-comp.mp4" type="video/mp4" />
                 </video> -->
+                <video id="f1" width="24%" style="border-radius: 10px;" autoplay loop muted controls>
+                    <source src="img/videos/failure-case/t1-fail1.mp4" type="video/mp4" />
+                </video>&nbsp;&nbsp;&nbsp;&nbsp;
+                <video id="f2" width="24%" style="border-radius: 10px;" autoplay loop muted controls>
+                    <source src="img/videos/failure-case/berkeley-fail1.mp4" type="video/mp4" />
+                </video>
             </div>
 
         <div class="row" style="margin-top: 100px;">
