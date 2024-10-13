@@ -153,13 +153,13 @@
                             </a>
                         </li>
                         <li>
-                            <a href="https://lipschitz-constrained-policy.github.io">
+                            <a href="https://github.com/zixuan417/smooth-humanoid-locomotion">
                             <image src="img/github.png" height="50px">
                                 <h4><strong>Code</strong></h4>
                             </a>
                         </li>
                         <li>
-                            <a href="https://lipschitz-constrained-policy.github.io">
+                            <a href="https://youtu.be/GWeI48QK6B8?si=I-SbSWhO7-sBq9Y-">
                             <image src="img/youtube_icon.png" height="50px">
                                 <h4><strong>Video</strong></h4>
                             </a>
@@ -189,7 +189,7 @@
                 </h3>
                 <div class="text-center">
                     <div style="position:relative;padding-top:56.25%;">
-                        <iframe src="https://www.youtube.com/embed/_yuOCatj0gM?si=sILITJ8e4ctQ0s4i" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
+                        <iframe src="https://www.youtube.com/embed/GWeI48QK6B8?si=61XPpZuEBvuQ-USw" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
                     </div>
                 </div>
                 </div>
@@ -221,11 +221,10 @@
                     Method
                 </h3>
                 <p class="text-justify" style="font-size: 18px;">
-                    RL-based policies are prone to producing <strong style="font-size: 18px;">jittery behaviors</strong>, Lipschitz continuous is a common way to
-                    characterize smoothness. <strong style="font-size: 18px;">L</strong>ipschitz-<strong style="font-size: 18px;">C</strong>onstrained-<strong style="font-size: 18px;">P</strong>olicies (LCP) provides a
-                    simple method to achieve smoothness by enforcing Lipschitz constraint on the policy. This constraint is implemented as the form
-                    of a gradient penalty, which is differentiable and can be easily integrated into existing RL training pipelines with only a few lines of code. 
-                    LCP provides a substitution to non-differentiable smoothing techniques and can be generally applied to various humanoid robots.
+                    RL-based policies are prone to producing <strong style="font-size: 18px;">jittery behaviors</strong>, Lipschitz continuous is a way to
+                    characterize the smoothness of a function. We propose <strong style="font-size: 18px;">L</strong>ipschitz-<strong style="font-size: 18px;">C</strong>onstrained-<strong style="font-size: 18px;">P</strong>olicies (LCP), a
+                    simple method to train policies that produce smooth behaviors by enforcing a Lipschitz constraint on the policy. This constraint is implemented as a gradient penalty, which is differentiable and can be easily integrated 
+                    into existing RL training pipelines with only a few lines of code. LCP provides a simple and effective alternative to commonly used non-differentiable smoothing techniques.
                 </p>
                 
                 <!-- Add your GIF here -->
@@ -255,7 +254,7 @@
             </h3>
             <div class="col-md-8 col-md-offset-2">
                 <p class="text-justify" style="font-size: 16px;">
-            With our method (LCP), we are able to develop a framework that can be generally utilized to train distinc humanoid robots.</p></div>
+                    With LCP, we are able to develop a framework that can be used to train controllers for a variety of distinct humanoid robots.</p></div>
             <div class="text-center" style="column-gap: 40px; line-height: 50px;">
                 <figure style="display: inline-block; width: 34%;">
                     <figcaption style="text-align: center; margin-bottom: 1px;"><strong>Fourier GR1T1</strong></figcaption>
